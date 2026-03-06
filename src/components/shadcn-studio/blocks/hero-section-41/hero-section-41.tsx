@@ -2,13 +2,11 @@
 
 import { useEffect, useState, useRef, useCallback } from "react";
 
-import { ArrowRightIcon } from "lucide-react";
 
 import Autoplay from "embla-carousel-autoplay";
 
 import { Separator } from "@/components/ui/separator";
 
-import { Button } from "@/components/ui/button";
 import {
   type CarouselApi,
   Carousel,
